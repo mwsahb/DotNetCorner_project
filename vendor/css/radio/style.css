@@ -1,0 +1,71 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+} 
+
+
+nav { 
+    background: rgb(55, 55, 172); 
+    min-height: 4.5rem;
+} 
+
+nav .nav-link,.navbar-brand{ 
+    color: rgb(255, 255, 255); 
+    transition: all 0.5s;
+} 
+
+.navbar-brand:hover{color: #fff; transform: scale(1.1);}
+
+
+.intro { 
+    margin-top: 5%;
+}  
+
+
+.intro img {width: 100%;} 
+
+.intro .intro-text { 
+    padding: 3%; 
+    margin-top: 10%;
+} 
+.intro button { 
+    background: rgb(55, 55, 172); 
+    border: none; 
+    width: 6rem;
+}
+
+
+.previous-records { 
+    background: rgb(55, 55, 172);
+     color: #fff; 
+     padding: 3%; 
+     margin-top: 5%; 
+     min-height: 50vh;
+
+} 
+
+.record { 
+    background: #fff; 
+    padding: 3%; 
+    border-radius: 5rem; 
+    margin: 3% auto; 
+    color: rgb(55, 55, 172); 
+  } 
+
+
+  .record img { 
+      width: 3rem;
+  } 
+
+.record a { 
+    margin: 5% 10% auto 10%;
+} 
+
+
+footer { 
+    background: rgb(55, 55, 172); 
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+}

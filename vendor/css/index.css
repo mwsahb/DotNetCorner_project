@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background: rgb(55, 55, 172);
+}
+
+nav .nav-link,
+.navbar-brand {
+  color: rgb(255, 255, 255);
+}
+
+.main {
+  text-align: center;
+  margin: 10% auto;
+}
+
+.main .main-text {
+  text-align: left;
+}
+
+.main img {
+  width: 100%;
+}
+
+.platform-sections .section {
+  background: rgb(48, 76, 165);
+  text-align: center;
+  padding: 10%;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 17px 26px 2px #00000078;
+  transition: all 0.3s;
+}
+.platform-sections .section:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background: rgb(55, 55, 172);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 5%;
+}

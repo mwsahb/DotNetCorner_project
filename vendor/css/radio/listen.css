@@ -1,0 +1,16 @@
+body {
+  padding: 10%;
+  height: 100vh;
+  background: url("../images/ilya-pavlov-OqtafYT5kTw-unsplash2.jpg") center;
+  background-size: cover;
+}
+
+.listen {
+  text-align: center;
+  margin: 10rem auto;
+  width: 100%;
+}
+
+.listen audio {
+  width: 70%;
+}
